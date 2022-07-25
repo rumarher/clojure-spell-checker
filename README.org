@@ -1,0 +1,19 @@
+* Proyecto Spell Checker (Detector de ortografía en Clojures)
+
+** ¿Por qué Clojure?
+Clojure es un lenguaje que trabaja sobre la máquina de Java, principalmente tiene la ventaja de que es multiplataforma (en cualquier máquina que se le pueda instalar una máquina virtual de Java).
+
+Además, se trata de un lenguaje basado en LISP, una de las familias de lenguajes más longevas en cuanto a historias de ordenadores se refiere, aunque ha sido eclipsada con otros lenguajes de paradigma imperativo o programación orientada a objetos con una sintaxis más parecida a la del lenguaje C.
+
+Este lenguaje es compatible con las librerías nativas de Java pudiendo hacer uso aparte de ellas más las suyas propias de clojures.
+
+Cuenta con un gestor de proyectos muy maduro llamado =leiningen= que permite crear proyectos, compilarlos, ejecutarlos, exportarlos...
+
+** El detector ortográfico
+Tras haber finalizado el curso de Clojure decidí seguir esta otra guía con ejercicios como síntesis. Es un proyecto sencillo y útil con varios objetivos que ayudarán a entender mejor y pensar familiarizándote con el lenguaje.
+
+** Objetivos
+- [X] Comprobación ortográfica: leer un diccionario, limpiar las cadenas y llevarlas a una estructura de datos idónea, crear una función que compruebe que la palabra es correcta.
+- [ ] Ofrecer una corrección: tras una cadena errónea indicar la palabra más parecida como opción para corregirla.
+- [ ] Usar la distancia de Levenshtein o distancia de palabras. Grupo de operaciones mínimas (inserción, eliminación o sustitución de caracteres) que difiere una palabra de otra.
+- [ ] Encontrar la mínima distancia entre palabras. (Ejercicio a modo de optimización)
